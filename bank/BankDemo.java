@@ -1,4 +1,4 @@
-;;import pkcustomer.*;
+import pkcustomer.*;
 import java.util.*;
 public class BankDemo
 {
@@ -63,6 +63,6 @@ break;
 default:
 System.out.println("Invalid Selection");
 }
-}while(ch < 3);
+}while(ch != 3);
 }
 }
